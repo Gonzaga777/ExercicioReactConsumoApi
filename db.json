@@ -23,8 +23,8 @@
   ],
   "customer": [
     {
-      "name": "Teste2",
-      "age": "23",
+      "name": "Teste23",
+      "age": "22",
       "document": "1111111111334",
       "tel": "12334455667",
       "state": "MA",
@@ -37,6 +37,14 @@
       "tel": "111938847446",
       "state": "PA",
       "id": 3
+    },
+    {
+      "name": "Guilherme24",
+      "age": "24",
+      "document": "134566000000",
+      "tel": "1000000000",
+      "state": "SP",
+      "id": 4
     }
   ],
   "states": [

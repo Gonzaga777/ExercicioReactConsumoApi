@@ -108,15 +108,15 @@ function ToList(props) {
                             value={customer.name}
                             onChange={event => setCustomer({...customer, name: event.target.value})} />
                             <Form.Label>Idade :</Form.Label>
-                        <Form.Control type="text" placeholder="Digite o nova Idade"
+                        <Form.Control type="number" placeholder="Digite o nova Idade"
                             value={customer.age}
                             onChange={event => setCustomer({...customer, age: event.target.value})} />
                             <Form.Label>Documento :</Form.Label>
-                        <Form.Control type="text" placeholder="Digite o novo documento"
+                        <Form.Control type="number" placeholder="Digite o novo documento"
                             value={customer.document}
                             onChange={event => setCustomer({...customer, document: event.target.value})} />
                             <Form.Label>Tefefone :</Form.Label>
-                        <Form.Control type="text" placeholder="Digite o novo Telefone"
+                        <Form.Control type="number" placeholder="Digite o novo Telefone"
                             value={customer.tel}
                             onChange={event => setCustomer({...customer, tel: event.target.value})} />
                             <Form.Label>Estado :</Form.Label>
